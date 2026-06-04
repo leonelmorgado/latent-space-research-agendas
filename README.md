@@ -4,6 +4,8 @@ This folder contains a generic, case-independent version of a protocol for using
 
 The protocol is meant for research teams that want to examine their own documented trajectory: publications, references, datasets, projects, technical outputs, review notes, or other traceable evidence. It does not reproduce any specific team's corpus. Each team should build its own evidence package and run the cycles with its own materials.
 
+The folder is designed to accompany a methodological article about LLM-guided latent-space exploration in educational technology. It is intentionally generic: it provides protocol text, prompts, templates, and record structures, not the case corpus or the case results.
+
 ## What this protocol is for
 
 The method helps a team turn an accumulated portfolio into a discussable map of possible research directions. The LLM is used to surface relationships, assumptions, tensions, possible blind spots, candidate directions, and claims that require further scrutiny.
@@ -46,7 +48,9 @@ cycles/
 4. Run cycle 3b: explore omissions, tensions, and epistemological opportunities.
 5. Run cycle 3c: examine the contribution potential of candidate directions and clarify misconceptions.
 6. Consolidate human decisions: keep, merge, reformulate, discard, or defer each candidate direction.
-7. Check against external literature before treating any direction as scientifically defensible.
+7. Conduct a human external literature check before treating any direction as scientifically defensible.
+
+Only stages 3a, 3b, and 3c are LLM-facing exploratory stages. Stages 4 and 5 are human scholarly work: they can document limited AI support if used, but the decisions, appraisal of evidence, and responsibility for claims remain with the researchers.
 
 ## Documentation rule
 
@@ -65,6 +69,8 @@ Keep three layers separate:
 1. what the LLM generated;
 2. what the researchers interpreted;
 3. what can be claimed with scientific prudence.
+
+For Stages 4 and 5, record the human reasons for each decision, the evidence consulted, and what remains uncertain.
 
 ## Data and ethics
 

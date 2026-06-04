@@ -6,6 +6,8 @@ This stage is not an autonomous LLM generation cycle. It records how researchers
 
 It uses the previous LLM outputs as criticisable material, not as conclusions. If any LLM response presented its own "criteria", treat those criteria as model output, not as human criteria automatically adopted.
 
+The decisions in this file are human decisions. Do not ask the LLM to fill this matrix as if it could decide the team's agenda.
+
 ## Function
 
 Turn exploratory material into a human-consolidated matrix of candidate directions.
@@ -14,6 +16,7 @@ The protocol itself should not become a candidate direction for the team. Keep o
 
 ## Consolidation criteria
 
+These are just suggestions and examples, consider what is relevant for your team.
 - Connection to the team's documented trajectory.
 - Explicit dependence on a theoretical anchor.
 - Difference from mere description of previous work.
@@ -53,3 +56,5 @@ Use one of these status labels:
 ## Notes on human responsibility
 
 Record why each decision was made. The strongest output is not necessarily the longest list of directions. A smaller set of well-argued, critically bounded directions is preferable to a broad inventory of plausible-sounding topics.
+
+If the LLM is used to format or summarise this stage, record that assistance separately from the decision itself.

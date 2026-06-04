@@ -8,6 +8,8 @@ Explore possible omissions, blind spots, tensions, or under-operationalised conc
 
 The aim is to open candidate directions for discussion. A candidate direction must be tied to a theoretical anchor, a tension, or a need for further evidence. It should not be a loose topic added because it is fashionable or frequent in the data.
 
+This stage should not simply recombine the trajectories already mapped in Stage 3a. It should use broader research knowledge relevant to the case to ask what is weakly visible or missing from the map: theoretical bases, instruments, operationalisations, evaluative criteria, methodological lenses, or research traditions that could alter the team's future agenda.
+
 ## Evidence input
 
 - Evidence package from Stage 2.
@@ -18,6 +20,8 @@ The aim is to open candidate directions for discussion. A candidate direction mu
 ## Guiding question
 
 What omissions, epistemological opportunities, or tensions between trajectories and theoretical anchors could open candidate research directions?
+
+More specifically: what theoretical bases, instruments, criteria, methodological lenses, or research traditions are missing, weakly visible, or under-operationalised when the Stage 3a map is compared with broader research knowledge in the fields that are relevant to the case being examined?
 
 ## Methodological restrictions
 
@@ -30,21 +34,25 @@ What omissions, epistemological opportunities, or tensions between trajectories 
 - If the LLM claims to have used "criteria", record that as part of the model output, but do not treat it as a systematic method or as human criteria.
 - Keep epistemological opportunities separate from comments on the quality of the report, article, method description, or writing.
 - Preserve the distinction between heuristic suggestion, human interpretation, and a candidate direction that has not yet been consolidated.
+- Do not claim that a theory, instrument, or criterion is absent from the full corpus unless the corpus has actually been checked. Use formulations such as "weakly visible in the evidence package" or "not prominent in the Stage 3a map".
+- Distinguish a genuinely alternative lens from a rhetorical recombination of existing trajectories.
 
 ## Suggested prompt
 
 ```text
 Using the evidence package, the Stage 3a latent state mapping, and the human corrections provided, identify possible omissions, epistemological opportunities, and tensions that could become candidate research directions.
 
+Do not merely recombine the trajectories already mapped in Stage 3a. Use broader research knowledge in the domains, disciplines, methods, and adjacent fields relevant to this case to identify theoretical bases, instruments, criteria, methodological lenses, or research traditions that are missing, weakly visible, or under-operationalised in the mapped latent state.
+
 For each candidate, specify:
-1. the theoretical anchor or conceptual basis;
-2. the tension, omission, or under-operationalised concept;
+1. the missing, weakly visible, or under-operationalised theoretical basis, instrument, criterion, or research tradition;
+2. what tension in the Stage 3a map it would challenge, extend, or make more observable;
 3. the candidate research direction;
 4. evidence in the team's trajectory;
-5. what evidence, literature, or expert judgement is still needed;
-6. whether the suggestion risks being trivial, endogenous, terminological, or fashionable.
+5. what corpus check, external literature, data, instrument, or expert judgement is still needed;
+6. whether the suggestion risks being trivial, endogenous, terminological, fashionable, or imported without fit.
 
-Do not validate the directions. Do not rank them as final priorities. Treat this as exploratory material for human consolidation.
+Do not validate the directions. Do not rank them as final priorities. Do not claim that something is absent from the full corpus unless it has been checked. Treat this as exploratory material for human consolidation.
 ```
 
 ## Record
@@ -66,7 +74,7 @@ Do not validate the directions. Do not rank them as final priorities. Treat this
 
 ### Candidate directions
 
-| Theoretical anchor | Tension or omission | Candidate direction | Evidence in the corpus or dialogue | Critical appraisal needed |
+| Missing or weakly visible basis/instrument/criterion | Tension or omission made observable | Candidate direction | Evidence in the corpus or dialogue | Critical appraisal needed |
 |---|---|---|---|---|
 |  |  |  |  |  |
 

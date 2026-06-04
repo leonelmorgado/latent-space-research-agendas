@@ -18,6 +18,8 @@ The protocol is designed to surface possible relationships, tensions, assumption
 
 ## Stages
 
+Only Stages 3a, 3b, and 3c are LLM-facing exploratory stages. Stages 4 and 5 are human decision and appraisal stages. They may document limited AI support, but the protocol must not let the model decide what should enter the team's agenda or what the literature validates.
+
 ### Stage 1 - Starting point
 
 Define the team, its documented trajectory, and the practical reason for exploring possible research directions.
@@ -80,9 +82,13 @@ Researchers decide what to keep, merge, reformulate, discard, or defer.
 
 The protocol itself must not be listed as a candidate direction for the team. Candidate directions should be substantive and connected to the team's trajectory.
 
+This is not an autonomous LLM generation cycle. Its output is a human-consolidated matrix with reasons for each decision.
+
 ### Stage 5 - External literature check
 
 Consolidated directions are checked against literature outside the team. This step controls endogeneity and helps decide whether to maintain, reformulate, discard, or return to an earlier stage.
+
+This is a human scholarly check, not a prompt that asks the LLM to validate the directions. The LLM may help organise search notes or summaries only if the researchers verify sources and decisions themselves.
 
 ## Required record
 
@@ -95,6 +101,8 @@ Each LLM stage should record:
 - human interpretation;
 - human corrections and decisions;
 - limitations.
+
+Stages 4 and 5 should also record human reasons, literature or evidence consulted, directions maintained or rejected, and remaining uncertainty.
 
 ## Methodological restrictions
 
