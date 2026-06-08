@@ -4,7 +4,9 @@ This folder contains a generic, case-independent version of a protocol for using
 
 The protocol is meant for research teams that want to examine their own documented trajectory: publications, references, datasets, projects, technical outputs, review notes, or other traceable evidence. It does not reproduce any specific team's corpus. Each team should build its own evidence package and run the cycles with its own materials.
 
-The folder is designed to accompany a methodological article about LLM-guided latent-space exploration in educational technology. It is intentionally generic: it provides protocol text, prompts, templates, and record structures, not the case corpus or the case results.
+The folder is designed to accompany the methodological article "Exploring latent space with a GPT to support creation of research agendas in educational technology". It is intentionally generic: it provides protocol text, prompts, templates, and record structures, not the case corpus, case results, article manuscript, or author-identifying submission files.
+
+During blind review, share this material as an exported archive without `.git/` metadata, repository remotes, author identifiers, private files, or direct links that would compromise anonymity.
 
 ## What this protocol is for
 
@@ -39,6 +41,8 @@ cycles/
   04_human_consolidation_template.md
   05_external_literature_check_template.md
 ```
+
+See [MANIFEST.md](MANIFEST.md) for the review/package manifest and the deliberate exclusions.
 
 ## Minimal workflow
 
