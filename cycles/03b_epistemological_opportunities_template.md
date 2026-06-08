@@ -1,7 +1,5 @@
 # Stage 3b - Omissions and Epistemological Opportunities
 
-Status: generic LLM-stage prompt and record template.
-
 ## Function
 
 Explore possible omissions, blind spots, tensions, or under-operationalised concepts from the latent state mapped in Stage 3a.
@@ -59,20 +57,27 @@ Do not validate the directions. Do not rank them as final priorities. Do not cla
 
 ### Date and time
 
+Record when the interaction took place or when the synthesis was produced. Include timezone if this matters for traceability.
 
 ### Model, version, and parameters
 
+Identify the LLM, product, model name or version, and any visible settings such as temperature, reasoning mode, tools, retrieval sources, or system constraints.
 
 ### Literal prompt
 
+Paste the exact prompt given to the LLM. If Stage 3a outputs, corrections, or evidence files were attached, name them and point to their stored location.
 
 ### LLM response or structured synthesis
 
+Preserve the full response, or write a structured synthesis if the full transcript is stored elsewhere. Keep model output separate from human appraisal.
 
 ### Relevant verbatim excerpt
 
+Copy only short excerpts that are analytically useful, such as an unexpected candidate direction, a revealing formulation, or a misconception that later needs correction.
 
 ### Candidate directions
+
+Use this table to record the model's candidate directions and the tension, weak signal, or missing basis that each one makes visible.
 
 | Missing or weakly visible basis/instrument/criterion | Tension or omission made observable | Candidate direction | Evidence in the corpus or dialogue | Critical appraisal needed |
 |---|---|---|---|---|
@@ -80,8 +85,12 @@ Do not validate the directions. Do not rank them as final priorities. Do not cla
 
 ### Human interpretation
 
+Record what the researchers consider plausible, trivial, unclear, imported without fit, terminological, or worth taking forward.
 
 ### Human decisions
 
+Record what should be kept for Stage 3c, merged with another candidate, reformulated, deferred, or discarded.
 
 ### Limits identified
+
+Record limits in the model's suggestions, the evidence package, the comparison with broader knowledge, or the team's current capacity to appraise the candidates.

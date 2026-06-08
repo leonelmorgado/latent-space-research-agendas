@@ -1,7 +1,5 @@
 # Stage 2 - Evidence Package Template
 
-Status: generic evidence-package template.
-
 This file records the evidence that will be provided to the LLM before the exploratory cycles. It should describe the team's corpus and its limits. It should not contain results from the LLM cycles.
 
 ## Case definition

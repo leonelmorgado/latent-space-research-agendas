@@ -1,7 +1,5 @@
 # Stage 3a - Latent State Mapping
 
-Status: generic LLM-stage prompt and record template.
-
 ## Function
 
 Ask the LLM to interpret the team's documented trajectory from the evidence package. The aim is to expose the model's dominant reading so that researchers can correct, redirect, and contextualise it.
@@ -67,17 +65,23 @@ Produce:
 
 ### Date and time
 
+Record when the interaction took place or when the synthesis was produced. Include timezone if this matters for later comparison.
 
 ### Model, version, and parameters
 
+Identify the LLM, product, model name or version, and any visible settings such as temperature, reasoning mode, tools, retrieval sources, or system constraints.
 
 ### Literal prompt
 
+Paste the exact prompt given to the LLM. If files or tables were attached, name them and point to their stored location.
 
 ### LLM response or structured synthesis
 
+Preserve the full response, or write a structured synthesis if the full transcript is stored elsewhere. Do not mix human evaluation into this section.
 
 ### Provisional trajectory and influence map
+
+Use this table to record the model's proposed map of visible trajectories, influence clusters, and the function it assigns to each one.
 
 | Visible trajectory | External theoretical influences | Internal or close-collaboration signals | Function in the map |
 |---|---|---|---|
@@ -85,11 +89,15 @@ Produce:
 
 ### Technical, historical, endogenous, or noisy references
 
+Use this table to separate references that may appear important by frequency or proximity but should not automatically be treated as theoretical anchors.
+
 | Reference or cluster | Type | Why it is not automatically a theoretical anchor | Follow-up needed |
 |---|---|---|---|
 |  | technical / historical / internal / close co-authorship / metadata noise |  |  |
 
 ### Relationships, tensions, and ambiguities
+
+List the relationships, tensions, and ambiguous signals that need human reading before they can become claims or candidate directions.
 
 1.
 2.
@@ -97,11 +105,16 @@ Produce:
 
 ### Human interpretation
 
+Record what the researchers think the model has usefully surfaced, misunderstood, overemphasised, or missed.
 
 ### Human corrections, contextualisations, or decisions
 
+Record corrections to the model's reading, contextual information not visible in the evidence package, and decisions about what should guide Stage 3b.
 
 ### What may be claimed with scientific prudence
 
+Write only the cautious claims that can be supported after this stage. Avoid claims about validated gaps, final priorities, or field-wide conclusions.
 
 ### Limits identified
+
+Record limits of the evidence package, model response, metadata, terminology, coverage, or human interpretation that should constrain later stages.

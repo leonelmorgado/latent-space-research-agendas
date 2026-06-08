@@ -1,7 +1,5 @@
 # Stage 3c - Contribution Potential and Misconception Check
 
-Status: generic LLM-stage prompt and record template.
-
 ## Function
 
 Discuss with the LLM the possible contribution of the candidate directions produced in Stage 3b and identify conceptual, terminological, evidential, or methodological misconceptions.
@@ -55,20 +53,27 @@ Do not present potential as demonstrated contribution. Make uncertainty visible.
 
 ### Date and time
 
+Record when the interaction took place or when the synthesis was produced. Include timezone if this matters for traceability.
 
 ### Model, version, and parameters
 
+Identify the LLM, product, model name or version, and any visible settings such as temperature, reasoning mode, tools, retrieval sources, or system constraints.
 
 ### Literal prompt
 
+Paste the exact prompt given to the LLM. If Stage 3a maps, Stage 3b candidates, or human corrections were attached, name them and point to their stored location.
 
 ### LLM response or structured synthesis
 
+Preserve the full response, or write a structured synthesis if the full transcript is stored elsewhere. Keep contribution claims as model output until researchers appraise them.
 
 ### Relevant verbatim excerpt
 
+Copy only short excerpts that clarify a potential contribution, a warning, a misconception, or a claim that should be avoided.
 
 ### Contribution matrix
+
+Use this table to record what the model suggests each candidate direction could contribute, what evidence would be needed, and what claims remain unsafe.
 
 | Candidate direction | Conceptual contribution | Methodological contribution | Technological contribution | Empirical contribution | Organisational contribution | Claims or misconceptions to avoid | Provisional decision |
 |---|---|---|---|---|---|---|---|
@@ -76,8 +81,12 @@ Do not present potential as demonstrated contribution. Make uncertainty visible.
 
 ### Human interpretation
 
+Record whether the proposed contribution is meaningful, already present in the team's work, weakly grounded, overstated, or useful as a prompt for further inquiry.
 
 ### Human decisions
 
+Record what should move to human consolidation, what should be reformulated, and what should be discarded or deferred.
 
 ### Limits identified
+
+Record limits in the proposed contributions, evidence requirements, feasibility, terminology, model assumptions, or remaining need for literature and expert judgement.

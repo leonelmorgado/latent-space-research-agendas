@@ -1,7 +1,5 @@
 # Stage 4 - Human Consolidation
 
-Status: generic human-consolidation template.
-
 This stage is not an autonomous LLM generation cycle. It records how researchers select, merge, reformulate, discard, or defer candidate directions produced in Stages 3a-3c.
 
 It uses the previous LLM outputs as criticisable material, not as conclusions. If any LLM response presented its own "criteria", treat those criteria as model output, not as human criteria automatically adopted.

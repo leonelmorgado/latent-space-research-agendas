@@ -4,9 +4,7 @@ This folder contains a generic, case-independent version of a protocol for using
 
 The protocol is meant for research teams that want to examine their own documented trajectory: publications, references, datasets, projects, technical outputs, review notes, or other traceable evidence. It does not reproduce any specific team's corpus. Each team should build its own evidence package and run the cycles with its own materials.
 
-The folder is designed to accompany the methodological article "Exploring latent space with a GPT to support creation of research agendas in educational technology". It is intentionally generic: it provides protocol text, prompts, templates, and record structures, not the case corpus, case results, article manuscript, or author-identifying submission files.
-
-During blind review, share this material as an exported archive without `.git/` metadata, repository remotes, author identifiers, private files, or direct links that would compromise anonymity.
+It provides protocol text, prompts, templates, and record structures. It is meant to be copied and adapted by each team, not used as a container for a specific case corpus or case results.
 
 ## What this protocol is for
 
@@ -42,7 +40,7 @@ cycles/
   05_external_literature_check_template.md
 ```
 
-See [MANIFEST.md](MANIFEST.md) for the review/package manifest and the deliberate exclusions.
+See [MANIFEST.md](MANIFEST.md) for the file map and guidance on using the protocol with a human or LLM assistant.
 
 ## Minimal workflow
 
@@ -78,7 +76,7 @@ For Stages 4 and 5, record the human reasons for each decision, the evidence con
 
 ## Data and ethics
 
-Use only data that the team is allowed to process and share. If the protocol is published with example materials, remove personal data, private documents, restricted PDFs, confidential project information, and any material that would compromise blind review, privacy, copyright, or institutional agreements.
+Use only data that the team is allowed to process and share. If the protocol is published with example materials, remove personal data, private documents, restricted PDFs, confidential project information, and any material that would compromise privacy, copyright, institutional agreements, or review integrity.
 
 For a public repository, prefer synthetic examples, public metadata, open-access sources, and clearly anonymised records.
 

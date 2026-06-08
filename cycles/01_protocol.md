@@ -1,7 +1,5 @@
 # Protocol for LLM-Guided Research Agenda Exploration
 
-Status: generic protocol template.
-
 ## Objective
 
 Use an LLM as a heuristic instrument to help a research team examine its documented trajectory and formulate candidate research directions.
