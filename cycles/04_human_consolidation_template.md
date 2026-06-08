@@ -1,6 +1,6 @@
 # Stage 4 - Human Consolidation
 
-Status: not yet executed.
+Status: generic human-consolidation template.
 
 This stage is not an autonomous LLM generation cycle. It records how researchers select, merge, reformulate, discard, or defer candidate directions produced in Stages 3a-3c.
 

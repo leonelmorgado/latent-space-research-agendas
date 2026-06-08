@@ -1,6 +1,6 @@
 # Stage 5 - External Literature Check
 
-Status: not yet executed.
+Status: generic external-literature-check template.
 
 This stage checks the human-consolidated directions against literature external to the team. It appraises plausibility and controls endogeneity. It does not replace a full literature review.
 

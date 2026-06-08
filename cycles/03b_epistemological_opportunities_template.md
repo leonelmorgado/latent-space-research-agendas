@@ -1,6 +1,6 @@
 # Stage 3b - Omissions and Epistemological Opportunities
 
-Status: not yet executed.
+Status: generic LLM-stage prompt and record template.
 
 ## Function
 

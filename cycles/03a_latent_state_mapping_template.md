@@ -1,6 +1,6 @@
 # Stage 3a - Latent State Mapping
 
-Status: not yet executed.
+Status: generic LLM-stage prompt and record template.
 
 ## Function
 
@@ -105,4 +105,3 @@ Produce:
 
 
 ### Limits identified
-

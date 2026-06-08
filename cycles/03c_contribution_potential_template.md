@@ -1,6 +1,6 @@
 # Stage 3c - Contribution Potential and Misconception Check
 
-Status: not yet executed.
+Status: generic LLM-stage prompt and record template.
 
 ## Function
 
@@ -81,4 +81,3 @@ Do not present potential as demonstrated contribution. Make uncertainty visible.
 
 
 ### Limits identified
-
