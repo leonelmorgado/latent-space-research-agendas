@@ -1,14 +1,14 @@
 # Stage 2 - Build the Evidence Package
 
-Stage 2 turns a team's publication trail into evidence that an LLM can inspect without pretending that the LLM is doing the science. The team provides the corpus, the boundaries, and the permissions. The AI assistant can help collect, normalise, extract, compare, and document the material.
+Stage 2 turns a team's publication trail into evidence that an LLM can inspect. The team provides the corpus, the boundaries, and the permissions, an AI assistant can help collect, normalise, extract, compare, and document the material.
 
-The result should be an evidence package that is good enough to support Stage 3a: a traceable map of what was included, where it came from, what was extracted, what is missing, and what the LLM must not infer.
+The result should be an evidence package that is good enough to support Stage 3a: a traceable map of what was included, where it came from, what was extracted, and what is missing.
 
 Use `00_evidence_package_template.md` to record the final package. This page explains how to build it.
 
 ## 1. Define the Team and the Boundary
 
-Start by naming the unit being examined. It may be a research team, lab, centre, project cluster, doctoral cohort, or another group with a documented trajectory.
+Start by naming the unit being examined. It may be a personal career, research team, lab, centre, project cluster, doctoral cohort, or another group with a documented trajectory.
 
 Record:
 
@@ -19,7 +19,7 @@ Record:
 - the types of publication excluded;
 - the reason for the exploration, such as strategic renewal, agenda formation, interdisciplinary integration, or review of a research trajectory.
 
-This boundary matters because every later distinction depends on it. A cited work may be external in one team's package and internal in another. A publication may be part of the active corpus for one case and contextual background for another.
+This scope boundary matters because every later distinction depends on it. A cited work may be external in one team's package and internal in another. A publication may be part of the active corpus for one case and contextual background for another.
 
 ## 2. Choose the Entry Route
 
@@ -55,7 +55,7 @@ This route is faster when identifiers are good. It is weaker when names are ambi
 
 ## 3. Build the Active Publication Corpus
 
-The active corpus is the set of works that represents the team's trajectory for this protocol. It is not automatically "everything the team has ever written". It is the set that the team is willing to treat as evidence for the exploration.
+The active corpus is the set of works that represents the team's trajectory for this protocol. Not everything the team has ever written is automatically considered: only the set that the team is willing to treat as evidence for the exploration.
 
 For each publication, record as much as possible:
 
