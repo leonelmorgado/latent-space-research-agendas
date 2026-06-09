@@ -2,6 +2,8 @@
 
 This file records the evidence that will be provided to the LLM before the exploratory cycles. It should describe the team's corpus and its limits. It should not contain results from the LLM cycles.
 
+For guidance on collecting publications, PDFs, metadata, cited works, in-text citation contexts, and evidence limits, see `02_build_evidence_package.md`.
+
 ## Case definition
 
 | Item | Description |

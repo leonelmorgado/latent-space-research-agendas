@@ -33,6 +33,7 @@ The LLM can propose interpretations. Researchers decide what is plausible, what 
 cycles/
   00_evidence_package_template.md
   01_protocol.md
+  02_build_evidence_package.md
   03a_latent_state_mapping_template.md
   03b_epistemological_opportunities_template.md
   03c_contribution_potential_template.md
@@ -45,7 +46,7 @@ See [MANIFEST.md](MANIFEST.md) for the file map and guidance on using the protoc
 ## Minimal workflow
 
 1. Define the case: the research team, group, lab, project cluster, or other unit whose trajectory is being examined.
-2. Build the evidence package: active corpus, authorship links, cited works, extracted references, classifications, exclusions, audit notes, and known data limits.
+2. Build the evidence package: active corpus, authorship links, cited works, extracted references, classifications, exclusions, audit notes, and known data limits. Use `cycles/02_build_evidence_package.md` for the practical guide and `cycles/00_evidence_package_template.md` for the record.
 3. Run cycle 3a: map the provisional latent state of the team's trajectory.
 4. Run cycle 3b: explore omissions, tensions, and epistemological opportunities.
 5. Run cycle 3c: examine the contribution potential of candidate directions and clarify misconceptions.

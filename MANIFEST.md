@@ -6,6 +6,7 @@
 - `LICENSE.md`: public repository license notice.
 - `cycles/00_evidence_package_template.md`: structure for assembling a case evidence package.
 - `cycles/01_protocol.md`: complete five-stage protocol.
+- `cycles/02_build_evidence_package.md`: practical guide for collecting publications, metadata, PDFs, references, citation contexts, and evidence limits.
 - `cycles/03a_latent_state_mapping_template.md`: prompt and record template for latent-state mapping.
 - `cycles/03b_epistemological_opportunities_template.md`: prompt and record template for omissions and epistemological opportunities.
 - `cycles/03c_contribution_potential_template.md`: prompt and record template for contribution potential and misconception checks.
@@ -25,7 +26,7 @@ The LLM-facing exploratory stages are 3a, 3b, and 3c. Stages 4 and 5 are human s
 An LLM assistant can help a team use this repository, but it should be treated as an instrument for organising and challenging the material, not as the owner of the research agenda. A useful assistant should:
 
 - read `README.md` and `cycles/01_protocol.md` before starting;
-- help the team fill `cycles/00_evidence_package_template.md` with traceable sources and clear limits;
+- help the team use `cycles/02_build_evidence_package.md` and fill `cycles/00_evidence_package_template.md` with traceable sources and clear limits;
 - run or support Stages 3a, 3b, and 3c only after the evidence package and restrictions are explicit;
 - keep literal prompts, model responses, human interpretation, and human decisions in separate record sections;
 - flag missing evidence, overclaiming, self-citation effects, close co-authorship effects, and weakly grounded suggestions;

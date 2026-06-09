@@ -26,6 +26,8 @@ Define the team, its documented trajectory, and the practical reason for explori
 
 Assemble the evidence that will be provided to the LLM. Record data sources, inclusion and exclusion criteria, metadata quality, and known limits.
 
+Use `02_build_evidence_package.md` as the practical guide and `00_evidence_package_template.md` as the record to complete before Stage 3a.
+
 ### Stage 3a - Latent state mapping
 
 Ask the LLM to map the provisional state it infers from the evidence.
