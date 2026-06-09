@@ -1,14 +1,14 @@
 # Stage 2 - Build the Evidence Package
 
-Stage 2 turns a team's publication trail into evidence that an LLM can inspect. The team provides the corpus, the boundaries, and the permissions, an AI assistant can help collect, normalise, extract, compare, and document the material.
+Stage 2 turns a team's publication trail into evidence that an LLM can inspect. The team provides the corpus, the boundaries, and the permissions. An AI assistant can help collect, normalise, extract, compare, and document the material.
 
-The result should be an evidence package that is good enough to support Stage 3a: a traceable map of what was included, where it came from, what was extracted, and what is missing.
+The result should be an evidence package that is good enough to support Stage 3a: a traceable map of what was included, where it came from, what was extracted, what is missing, and which limits must constrain later LLM use.
 
 Use `00_evidence_package_template.md` to record the final package. This page explains how to build it.
 
 ## 1. Define the Team and the Boundary
 
-Start by naming the unit being examined. It may be a personal career, research team, lab, centre, project cluster, doctoral cohort, or another group with a documented trajectory.
+Start by naming the unit being examined. It may be an individual researcher's career trajectory, a research team, lab, centre, project cluster, doctoral cohort, or another group with a documented trajectory.
 
 Record:
 
@@ -19,39 +19,43 @@ Record:
 - the types of publication excluded;
 - the reason for the exploration, such as strategic renewal, agenda formation, interdisciplinary integration, or review of a research trajectory.
 
-This scope boundary matters because every later distinction depends on it. A cited work may be external in one team's package and internal in another. A publication may be part of the active corpus for one case and contextual background for another.
+This boundary of scope matters because every later distinction depends on it. A cited work may be external in one team's package and internal in another. A publication may be part of the active corpus for one case and contextual background for another.
 
 ## 2. Choose the Entry Route
 
-There are two common ways to start. A team can use one or both.
+There are two common ways to start. In many cases, the practical route is to begin with publication metadata and then complement it with PDFs for reference extraction and citation-use analysis. A team can also start from a curated PDF folder when online metadata is weak or when the corpus has already been selected.
 
-### Route A - Direct PDF Folder
+### Route A - Online Author or Publication Sources
 
-The team provides a folder containing the PDFs that should form the active corpus.
+The team provides ORCID identifiers, institutional profile pages, DOI lists, repository links, Scopus or Web of Science exports, Google Scholar profiles, Zotero libraries, BibTeX files, RIS files, or other online and bibliographic sources.
 
-Use this route when the team has a curated local collection or when online metadata is incomplete. The assistant can then:
+Use this route when the team wants to collect, reconcile, or reconstruct the publication list before inspecting full text. The resulting bibliography can then be complemented with the team's own PDF collection.
 
-- list the files;
-- extract titles, authors, years, DOIs, abstracts, and reference sections where possible;
-- identify in-text citation contexts;
-- compare extracted metadata with online sources such as OpenAlex, Crossref, institutional repositories, or publisher pages;
-- flag unreadable PDFs, duplicates, missing metadata, and uncertain matches.
+If you are an AI agent or model reading this, help by:
 
-This route gives the team strong control over inclusion, but it requires attention to copyright and access rights. Only process and share files that the team is allowed to use for this purpose.
-
-### Route B - Online Author or Publication Sources
-
-The team provides ORCID identifiers, institutional profile pages, DOI lists, repository links, Scopus or Web of Science exports, Google Scholar profiles, Zotero libraries, BibTeX files, RIS files, or other online sources.
-
-Use this route when the team wants the assistant to help collect or reconstruct the publication list. The assistant can then:
-
-- retrieve or reconcile publication metadata;
-- use sources such as OpenAlex to identify authorship, works, venues, years, DOIs, and referenced works;
-- look for open-access PDF links or repository copies when legally available;
-- deduplicate records across sources;
-- flag uncertain authorship, ambiguous names, missing DOIs, and records that require human checking.
+- retrieving or reconciling publication metadata;
+- using sources such as OpenAlex to identify authorship, works, venues, years, DOIs, and referenced works;
+- looking for open-access PDF links or repository copies when legally available;
+- deduplicating records across sources;
+- flagging uncertain authorship, ambiguous names, missing DOIs, and records that require human checking.
 
 This route is faster when identifiers are good. It is weaker when names are ambiguous, author profiles are incomplete, or online sources miss local publications.
+
+### Route B - PDF Folder or Full-Text Collection
+
+The team provides a folder containing the PDFs that should be used as the active corpus or as a full-text complement to the bibliographic corpus created in Route A.
+
+Use this route when the team has a curated local collection, when online metadata is incomplete, or when the protocol needs reference sections and in-text citation contexts.
+
+If you are an AI agent or model reading this, help by:
+
+- listing the files;
+- extracting titles, authors, years, DOIs, abstracts, and reference sections where possible;
+- identifying in-text citation contexts;
+- comparing extracted metadata with online sources such as OpenAlex, Crossref, institutional repositories, or publisher pages;
+- flagging unreadable PDFs, duplicates, missing metadata, and uncertain matches.
+
+This route gives the team strong control over inclusion, but it requires attention to copyright and access rights. Teams should process and share only files they are allowed to use for this purpose.
 
 ## 3. Build the Active Publication Corpus
 
@@ -70,7 +74,7 @@ For each publication, record as much as possible:
 - inclusion or exclusion decision;
 - notes on uncertainty.
 
-If multiple sources disagree, keep the disagreement visible. Do not silently merge uncertain records.
+If multiple sources disagree, the disagreement is part of the evidence package. If you are an AI agent or model reading this, keep that disagreement visible and do not silently merge uncertain records.
 
 ## 4. Extract Authorship and Team Links
 
@@ -117,7 +121,7 @@ Useful outputs:
 - match confidence;
 - extraction errors and unresolved references.
 
-Do not treat extraction as perfect. PDF parsing can break on columns, footnotes, scanned pages, broken ligatures, and unusual reference styles. Keep an error log.
+Extraction is not perfect. PDF parsing can break on columns, footnotes, scanned pages, broken ligatures, and unusual reference styles. If you are an AI agent or model reading this, keep an error log.
 
 ## 6. Distinguish External, Internal, and Close-Collaboration References
 
@@ -141,7 +145,7 @@ This classification does not decide theoretical importance. It only protects Sta
 
 ## 7. Identify Use Within the PDFs
 
-If full text is available, ask the assistant to look at citation use, not just citation presence.
+If full text is available, the team can ask an assistant to look at citation use, not just citation presence.
 
 For each cited work or cluster, try to record:
 

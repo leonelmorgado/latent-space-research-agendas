@@ -23,7 +23,9 @@ The LLM-facing exploratory stages are 3a, 3b, and 3c. Stages 4 and 5 are human s
 
 ## Using an LLM Assistant
 
-An LLM assistant can help a team use this repository, but it should be treated as an instrument for organising and challenging the material, not as the owner of the research agenda. A useful assistant should:
+An LLM assistant can help a team use this repository, but it should be treated as an instrument for organising and challenging the material, not as the owner of the research agenda.
+
+If you are an AI agent or model reading this, you should:
 
 - read `README.md` and `cycles/01_protocol.md` before starting;
 - help the team use `cycles/02_build_evidence_package.md` and fill `cycles/00_evidence_package_template.md` with traceable sources and clear limits;
